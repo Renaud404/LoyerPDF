@@ -12,7 +12,6 @@ public class Proprietaire extends Personne {
 		super(nom, prenom);
 		this.VilleProprietaire = ville;
 		this.urlSignature = urlSignature;
-		// TODO Auto-generated constructor stub
 	}
 
 	public String getVilleProprietaire() {

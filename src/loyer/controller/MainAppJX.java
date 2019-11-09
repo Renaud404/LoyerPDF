@@ -34,12 +34,8 @@ public class MainAppJX extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		
-			
-		
-		
 		setLoyerPDFFilePath();
 
-		//System.out.println(getLoyerPDFFilePath());
 		this.primaryStage = primaryStage;
 		this.primaryStage.setTitle("LoyerPDF");
 
@@ -47,7 +43,7 @@ public class MainAppJX extends Application {
 		// INIT PROPRIETAIRE, CODE A FACTORISER
 		String signatureProprio = "";
 		Preferences prefs = Preferences.userNodeForPackage(MainAppJX.class);
-		prefs.remove("signatureProprietaire"); // A VIRER 
+
 		String proprioinfo = prefs.get("signatureProprietaire", null);
 	    if (proprioinfo != null) {
 	    	signatureProprio = proprioinfo;
@@ -76,7 +72,7 @@ public class MainAppJX extends Application {
 	    if (villeproprioinfo != null) {
 	    	villeProprio = villeproprioinfo;
 	    }else { // rien mémoire on utilise la démo
-	    	villeProprio = "Jean";
+	    	villeProprio = "Paris";
 	    }
 
 		this.setProprietaire(new Proprietaire(nomProprio, prenomProprio, villeProprio, signatureProprio));

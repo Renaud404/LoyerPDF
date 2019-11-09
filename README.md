@@ -7,6 +7,6 @@ C'est une libre adaptation de l'excellent tuto sur JavaFX disponible ici : https
 Le projet permet de voir quelques fonctionnalités supplémentaires :
 - Ouvrir une fenêtre dans la fenêtre en cours
 - Générer des PDF en Java avec Apache PDFBox https://pdfbox.apache.org/
-- Importer et exporter des fichiers textes de sauvegarde (pas de XML)
+- Importer et exporter des fichiers textes de sauvegarde pour les locations
 - Utilisation des imageView de JavaFX
 

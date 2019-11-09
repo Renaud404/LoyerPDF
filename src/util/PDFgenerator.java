@@ -265,16 +265,12 @@ public class PDFgenerator {
                 alert.setContentText(proprio.getUrlSignature());
                 alert.showAndWait();
           }
-         /* PDImageXObject pdImage = PDImageXObject.createFromFile(proprio.getUrlSignature(),document);
-          contentStream.drawImage(pdImage,85, 190, 58,50);*/
+
 
           contentStream.close();
   
           try {
-        	  
-        	  /* f = null;
-             /* f = File.createFile(System.getProperty("user.dir")+"-", ".pdf", null);*/
-
+        	 
         	  File f = null;
         	  f = File.createTempFile(loc.getlisteQuittance().get(moisLoc).moisTexteString()+"-", ".pdf", null);
         	  System.out.println("File path: "+f.getAbsolutePath());

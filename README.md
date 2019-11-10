@@ -1,6 +1,6 @@
 # LoyerPDF
  
-Logiciel gratuite pour créer des quittances de loyer en PDF.
+Logiciel gratuit pour créer des quittances de loyer en PDF.
 
 Une version prête à utiliser est disponible ici : https://github.com/Renaud404/LoyerPDF/releases/download/v1.0/LoyerPDF.rar 
 

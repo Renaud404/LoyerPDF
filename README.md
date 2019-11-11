@@ -17,3 +17,14 @@ Il y a une location exemple 'StudioF1' pour voir le fonctionnement du logiciel.
 ___________________
 
 
+D'un point de vue dev :
+C'est une libre adaptation de l'excellent tuto sur JavaFX disponible ici : https://code.makery.ch/fr/library/javafx-tutorial/
+
+Le projet permet de voir quelques fonctionnalités supplémentaires :
+- Ouvrir une fenêtre dans la fenêtre en cours
+- Générer des PDF en Java avec Apache PDFBox https://pdfbox.apache.org/
+- Importer et exporter des fichiers textes de sauvegarde pour les locations
+- Utilisation des imageView de JavaFX
+- 'preferences' de Java pour sauvegarder les infos du propriétaire dans le registre
+- Affichage d'un bouton dans une tableView dans une colonne particulière, avec un listener qui génère le PDF stocké dans un répertoire temporaire
+- Des objects imbriqués
